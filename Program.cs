@@ -27,7 +27,7 @@ namespace Deliverable_2_Iterative_Statement
                 // If statement to determin if user input is between 1 and 100
                 if (number > 0 && number <= 100)
                 {
-                    // loopNum used to loop the while loop while keeping number in tact
+                    // loopNum used to loop the while loop while keeping number intact
                     int loopNum = number;
 
                     // While loop that will loop through what the user has input. While loop will loop till loopNum reaches 0
@@ -35,7 +35,7 @@ namespace Deliverable_2_Iterative_Statement
                     {
                         // writeline to display output
                         Console.WriteLine("You have entered: " + number + " This is the current integer value in the loop: " + loopNum);
-                        // decrease loopNum down by one to provent infident loop
+                        // decrease loopNet down by one to prevent infinite loop
                         loopNum--;
                     }
                 }
